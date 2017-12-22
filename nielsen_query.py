@@ -14,8 +14,8 @@ user = 'thg_user'
 password = urllib.parse.quote_plus('Thg@1234')
 db = 'nielsen_recode'
 
-
-def query_server(logger, writer, host, port, user, password, db, categories,
+#TODO Dependency injection for query server, change defaults and add documentation
+def query_server(logger, writer, querent,  host, port, user, password, db, categories,
                  category_regroup=None, min_obs_dollars=0, min_obs_units=0,
                  min_acv=0, min_upc_dollars=0, min_upc_units=0, min_periods=0,
                  eval_period_start=0, eval_period_end=0,
