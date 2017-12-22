@@ -1,0 +1,7 @@
+name: stan
+dependencies:
+        - python=3
+        - numpy
+        - pip
+        - pandas
+        - pystan
